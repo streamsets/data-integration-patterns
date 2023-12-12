@@ -1,0 +1,12 @@
+*.pyc
+.DS_Store
+.cache
+_build
+.idea
+*.iml
+.gitreview
+.python-version
+venv/*
+database.ini
+streamsets.ini
+nohup.out
