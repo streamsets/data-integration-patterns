@@ -94,7 +94,7 @@ class StreamSetsManager:
         return self.sch.start_job_template(
             sch_job_template,
             runtime_parameters=runtime_parameters,
-            instance_name_suffix='TIME_STAMP',
+            instance_name_suffix='COUNTER',
             attach_to_template=True,
             delete_after_completion=job_template['delete_after_completion'])
 
