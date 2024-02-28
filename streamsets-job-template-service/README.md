@@ -291,7 +291,7 @@ Once the instances complete, you should see their metrics in the <code>streamset
 
 <img src="images/metrics.png" alt="metrics" width="1000" />
 
-Note the <code>user_id</code> and <code>user_run_id</code> fields added to the <code>job_run_metrics</code> table which allows the user to correlate their request with the subsequently written metrics.
+Note the <code>user_id</code> and <code>user_run_id</code> fields added to the <code>job_instance</code> table which allows the user to correlate their request with the subsequently written metrics.
 
 
 
