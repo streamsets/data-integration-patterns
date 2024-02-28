@@ -286,7 +286,7 @@ Look at each instance's details page in Control Hub to confirm the full set of r
 Once the instances complete, you should see their metrics in the <code>streamsets.job_run_metrics</code> table.  I'll force quit one of the Job instances to confirm the service distinguishes between instances that terminate normally and those that do not:
 
 
-<code>SQL> select * from streamsets.job_run_metrics;</code>
+<code>SQL> select * from streamsets.job_instance;</code>
 
 
 <img src="images/metrics.png" alt="metrics" width="1000" />
