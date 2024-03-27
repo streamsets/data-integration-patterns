@@ -24,7 +24,7 @@ Here is an overview of the process:
 
 - The service spawns a new thread for each Job Template Instance, and each thread waits until its instance completes, then gathers the instance metrics and inserts the metrics into a database table.
 
-<img src="images/overview.png" alt="overview" width="700" />
+<img src="images/overview2.png" alt="overview" width="700" />
 
 ## Prerequisites
 
