@@ -11,9 +11,7 @@ Here is an overview of the process:
 - There are many scenarios where a StreamSets Job could be launched using this Job Template Service. For example:
   - An Analyst could click a button in a custom UI (not provided here) that makes REST API calls to the Job-Template-Service to launch a Job.
 
-  - A GitHub Action or other CI/CD automation systems could start a Job using REST API calls to the Job-Template-Service. 
-  
-  - Schedulers like Apache Airflow or other applications with Python bindings could directly call the Python Job Template Runner script.
+  - A GitHub Action or other CI/CD automation systems could start a Job using REST API calls to the Job-Template-Service, or if Python bindings are available, could directly call the Python Job Template Runner script.
   
 - A subset of the Job's runtime parameters will be passed in by the caller, which we refer to as the "dynamic" runtime parameters, with additional pipeline and connection parameters retrieved from a configuration store, which we refer to as "static" runtime parameters.
 
